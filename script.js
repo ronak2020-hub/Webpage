@@ -18,7 +18,7 @@ function updateCart() {
         0
     );
 
-    cartTotal.textContent = `$${total}`;
+    cartTotal.textContent = `₹₹{total}`;
 
     cartList.innerHTML = "";
 
