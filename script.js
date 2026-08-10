@@ -32,8 +32,8 @@ function updateCart() {
         const li = document.createElement("li");
 
         li.innerHTML = `
-            <span>${item.name}</span>
-            <strong>$${item.price}</strong>
+            <span>₹{item.name}</span>
+            <strong>₹₹{item.price}</strong>
         `;
 
         cartList.appendChild(li);
